@@ -1,0 +1,110 @@
+
+.container-general{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/20/22/03/background-1921589_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#titulo {
+    text-align: center;
+    color: #0E5252;
+    font-family: 'Caveat', cursive;    
+    font-size: 2.50em;
+}
+
+#img-reloj {
+    width: 50px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-mimusica {
+    display: block;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.cont-hora-dias {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.hora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 12px;
+    border: 2px solid #0E5252;
+}
+
+.boton-musica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.boton-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+#hora{
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #0E5252;
+}
+
+
+#miinput1{
+
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid #D9D925 ;
+    font-family: 'Caveat', cursive;  
+    font-size: 1.20em;
+}
+
+
+#enviar{
+    width: 130px;
+    height: 130px;
+    background-color: #FDFD91 ;
+    border-radius: 50%;
+    border: 2px solid #D9D925 ;
+    font-family: 'Caveat', cursive; 
+    font-size: 1.14em
+    
+}
+
+#subtitulo{
+    font-family: 'Caveat', cursive;
+    font-size: 1.40em;
+}
+
+#lista-alarmas{
+    font-family: 'Caveat', cursive;
+    font-size: 1.40em;
+}
+
